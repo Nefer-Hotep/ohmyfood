@@ -1,0 +1,12 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(161, 152, 28);
+    height: 100%;
+}

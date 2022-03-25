@@ -1,0 +1,18 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a1981c;
+  height: 100%;
+}
+
+body {
+  font-size: large;
+}
+
+/*# sourceMappingURL=style.css.map */
