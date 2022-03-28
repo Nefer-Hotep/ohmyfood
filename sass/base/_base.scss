@@ -3,10 +3,14 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: inherit;
+    text-decoration: none;
 }
 
 body {
-    background-color: rgb(161, 152, 28);
-    height: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(0, 0, 0);
 }

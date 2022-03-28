@@ -5,42 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oh My Food</title>
+        <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- Header -->
     <header>
-      <!-- Header -->
       <img src="./assets/logo/ohmyfood.png" alt="Logo ohmyfood" />
     </header>
     <main>
       <!-- Section Explore -->
       <section class="explore">
         <div class="city">
-          <i></i>
-          <p>Paris,Belleville</p>
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Paris, Belleville</p>
         </div>
-        <h1>Réservez le menu qui vous convient</h1>
-        <p>
-          Découvrez des restaurants d'exception, sélectionnés par nos soins.
-        </p>
-        <div class="explore__btn">Explorer nos restaurants</div>
+        <div class="explore__body">
+          <div class="explore__title">
+            <h1>Réservez le menu qui vous convient</h1>
+          </div>
+          <div class="explore__subtitle">
+            <p>
+              Découvrez des restaurants d'exception, sélectionnés par nos soins.
+            </p>
+          </div>
+          <button href="#" class="explore__btn">Explorer nos restaurants</button>
+        </div>
       </section>
       <!-- Section Fonction -->
-      <section class="fonction">
+      <section class="fonctioning">
         <h2>Fonctionnnement</h2>
-        <div class="fontcion__list">
+        <div class="fonctioning__list">
           <!-- Button 1 -->
-          <div class="fonction__btn">
-            <a href="#"><i class="number"></i><i></i>Choisissez un restaurant<a>
-          </div>
+          <a href="#" class="fonctioning__btn"
+            ><span class="number">1</span
+            ><i class="fas fa-mobile-alt fa-lg"></i>Choisissez un restaurant</a
+          >
           <!-- Button 2 -->
-          <div class="fonction__btn">
-            <a href="#"><i class="number"></i><i></i>Composez votre menu</a>
-          </div>
+          <a href="#" class="fonctioning__btn"
+            ><span class="number">2</span
+            ><i class="fa-solid fa-list"></i>Composez votre menu</a
+          >
           <!-- Button 3 -->
-          <div class="fonction__btn">
-            <a href="#"><i class="number"></i><i></i>Dégustez au restaurant</a>
-          </div>
+          <a href="#" class="fonctioning__btn"
+            ><span class="number">3</span
+            ><i class="fa-solid fa-store"></i>Dégustez au restaurant</a
+          >
         </div>
       </section>
       <!-- Section Restaurant -->
@@ -55,7 +76,7 @@
                 <div class="card__title">La palette du gôut</div>
                 <div class="card__subtitle">Ménilmontant</div>
               </div>
-              <div class="card__heart"><i></i><i></i></div>
+              <div class="card__heart"><i class="fa-solid fa-heart"></i></div>
             </div>
           </div>
           <!-- Card 2 -->
@@ -66,7 +87,7 @@
                 <div class="card__title">La note enchantée</div>
                 <div class="card__subtitle">Charonne</div>
               </div>
-              <div class="card__heart"><i></i><i></i></div>
+              <div class="card__heart"><i class="fa-solid fa-heart"></i></div>
             </div>
           </div>
           <!-- Card 2 -->
@@ -77,7 +98,7 @@
                 <div class="card__title">À la française</div>
                 <div class="card__subtitle">Cité Rouge</div>
               </div>
-              <div class="card__heart"><i></i><i></i></div>
+              <div class="card__heart"><i class="fa-solid fa-heart"></i></div>
             </div>
           </div>
           <!-- Card 3 -->
@@ -88,7 +109,7 @@
                 <div class="card__title">Le délice des sens</div>
                 <div class="card__subtitle">Folie-Méricourt</div>
               </div>
-              <div class="card__heart"><i></i><i></i></div>
+              <div class="card__heart"><i class="fa-solid fa-heart"></i></div>
             </div>
           </div>
         </div>
@@ -97,8 +118,14 @@
       <footer>
         <img src="" alt="" />
         <ul>
-          <li><i></i><a href="#">Proposer un restaurant</a></li>
-          <li><i></i><a href="#">Devenir partenaire</a></li>
+          <li>
+            <i class="fa-solid fa-utensils"></i
+            ><a href="#">Proposer un restaurant</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-handshake-angle"></i
+            ><a href="#">Devenir partenaire</a>
+          </li>
           <li><a href="#">Mentions légales</a></li>
           <li><a href="#">Contact</a></li>
         </ul>

@@ -3,16 +3,160 @@
 *::before {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+}
+
+body {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #a1981c;
-  height: 100%;
+a {
+  color: black;
 }
 
 body {
-  font-size: large;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: "Shrikhand", sans-serif;
+}
+
+.explore__btn {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.fonctioning__btn {
+  font-weight: 600;
+}
+
+.number {
+  font-size: 12px;
+}
+
+.explore__btn {
+  height: 45px;
+  width: 200px;
+  margin: 40px;
+  color: #fff;
+  background: #9456dc;
+  background: linear-gradient(to top, #9456dc, #ff79db);
+  border: none;
+  border-radius: 25px;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+header img {
+  width: 160px;
+}
+
+.explore {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: auto;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 15px;
+  font-weight: 900;
+  background-color: #f2f2f2;
+  border-top: 5px groove #bbbbbb2c;
+}
+
+.city p {
+  padding-right: 30px;
+}
+
+.city i {
+  margin-right: 13px;
+}
+
+.explore__body {
+  height: auto;
+  padding: 20px;
+  background-color: #f2f2f259;
+}
+
+.explore__title {
+  padding: 15px;
+}
+
+.fonctioning {
+  height: auto;
+  padding: 40px 25px;
+}
+
+.fonctioning__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  height: 300px;
+}
+
+.fonctioning__btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  margin-left: 15px;
+  padding-right: 40px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  box-shadow: 11px 9px 20px 0px rgba(213, 205, 205, 0.62);
+}
+
+.fonctioning__btn i {
+  color: #8f8f8f;
+}
+
+.fonctioning__btn:hover {
+  background-color: #eedfff98;
+}
+
+.fonctioning__btn:hover > i {
+  color: #9356dc;
+}
+
+.number {
+  position: absolute;
+  text-align: center;
+  left: 21px;
+  width: 25px;
+  height: 25px;
+  background-color: #9356dc;
+  color: #fff;
+  border-radius: 25px;
+  line-height: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
