@@ -1,32 +1,61 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
 }
 
 h1 {
-    font-size: 25px;
-    font-weight: bolder;
+  font-size: 25px;
+  font-weight: 800;
 }
 
 h2 {
-    font-size: 25px;
-    font-weight: bolder;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 h3 {
-   font-family: 'Shrikhand', sans-serif;
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.city {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .explore__btn {
-    font-size: 15px;
-    font-weight: 500;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .fonctioning__btn {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .number {
-    font-size: 12px;
+  font-size: 12px;
+}
+
+.card__title {
+  font-weight: 800;
+}
+
+.new {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+footer {
+  font-size: 14px;
+}
+
+.card__price {
+  font-size: 15px;
+  font-weight: 800;
 }
