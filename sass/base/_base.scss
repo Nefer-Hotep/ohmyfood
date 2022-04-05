@@ -1,3 +1,6 @@
+// 
+// Base
+// 
 *,
 *::after,
 *::before {
@@ -10,6 +13,7 @@
 
 body {
     box-sizing: border-box;
+    height: 100vh;
 }
 
 a {

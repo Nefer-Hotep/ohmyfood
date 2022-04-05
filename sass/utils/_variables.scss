@@ -1,9 +1,14 @@
+// 
+// Colour
+// 
 $colour-primary: #9356dc;
 $colour-secondary: #ff79da;
 $colour-tertiary: #99e2d0;
 
+// 
+// Gradient
+// 
 $gradient-top: linear-gradient(to top, $colour-primary, $colour-secondary);
-
 $gradient-bottom: linear-gradient(
   to bottom,
   $colour-primary,

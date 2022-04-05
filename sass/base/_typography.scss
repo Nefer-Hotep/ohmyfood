@@ -1,3 +1,6 @@
+// 
+// Typography
+// 
 body {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
@@ -42,17 +45,14 @@ h4 {
   font-size: 12px;
 }
 
-.card__title {
-  font-weight: 800;
-}
-
-.menu__title {
+.card__title,
+.menu__title,
+.menu__price{
   font-weight: 800;
 }
 
 .menu__price {
   font-size: 15px;
-  font-weight: 800;
 }
 
 .new {
