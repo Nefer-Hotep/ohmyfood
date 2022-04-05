@@ -2,28 +2,24 @@ footer {
   padding: 20px;
   background-color: rgb(61, 61, 61);
   color: #fff;
-}
-
-footer img {
-  width: 100px;
-  color: #fff;
-}
-
-footer li {
-  margin-top: 5px;
+  & img{
+    width: 100px;
+    color: #fff;
+  }
+  & i {
+    margin-right: 10px;
+    width: 10px;
+  }
 }
 
 footer ul {
   margin-top: 20px;
-}
-
-footer a {
-  color: #fff;
-}
-
-footer i {
-  margin-right: 10px;
-  width: 10px;
+  & li {
+    margin-top: 5px;
+  }
+  & a {
+    color: #fff;
+  }
 }
 
 .logo--white {

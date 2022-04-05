@@ -4,6 +4,32 @@
   justify-content: space-between;
   text-align: center;
   height: auto;
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    background-color: #f2f2f259;
+  }
+  &__title {
+    padding: 15px;
+  }
+  &__btn {
+    height: 50px;
+    width: 200px;
+    margin: 40px;
+    color: #fff;
+    line-height: 50px;
+    background: $colour-primary;
+    background: linear-gradient(to top, $colour-primary, $colour-secondary);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 11px 9px 20px 0px rgb(213 205 205 / 62%);
+    &:hover {
+      @include btn-shadow
+    }
+  }
 }
 
 .city {
@@ -11,26 +37,13 @@
   justify-content: center;
   align-items: center;
   height: 50px;
-  
   background-color: #f2f2f2;
   border-top: 5px groove #bbbbbb2c;
-}
-
-.city p {
-  padding-right: 30px;
-}
-
-.city i {
-  margin-right: 13px;
-}
-
-.explore__body {
-  height: auto;
-  padding: 20px;
-  background-color: #f2f2f259;
-}
-
-.explore__title {
-  padding: 15px;
+  & p {
+    padding-right: 30px;
+  }
+  & i {
+    margin-right: 13px;
+  }
 }
 
