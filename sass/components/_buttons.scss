@@ -40,7 +40,7 @@
   opacity: 0;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  transition: opacity 250ms ease-in-out;
+  transition: opacity 1s ease-in-out;
 
   &:hover {
     background: $gradient-bottom;
