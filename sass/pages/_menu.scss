@@ -1,22 +1,28 @@
 //
 // Menu Page Template
 //
+
+.section-menu {
+  height: 1;
+}
+
 .section-menu img {
   width: 100%;
-  height: 100%;
+  height: 250px;
   object-fit: cover;
 }
 
 h4 {
-  margin-top: 30px;
-  text-align: start;
+  margin-top: 25px;
+  align-self: start;
 }
 
 .green-underline {
   height: 3px;
   width: 40px;
-  margin-top: 5px;
+  margin: 5px 0;
   background-color: $colour-tertiary;
+  align-self: start;
 }
 
 .menu {
@@ -26,7 +32,7 @@ h4 {
   position: relative;
   margin-top: -45px;
   padding: 15px;
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 45px 45px 0px 0px;
   background-color: #f2f2f2;
   &__restaurant {
     display: flex;
@@ -39,26 +45,30 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: auto 0;
   }
   &__selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    max-width: 375px;
   }
   &__btn {
     display: flex;
-    justify-content: space-between;
     text-align: left;
     align-items: center;
     height: 70px;
     width: 100%;
     max-width: 400px;
-    margin: 15px 0px;
-    text-overflow: ellipsis;
+    margin: 10px 0px;
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 11px 9px 20px 0px rgb(213 205 205 / 62%);
     cursor: pointer;
     visibility: hidden;
-    animation: fadein 0.1s 600ms both ease-in-out;
+    animation: fadein 50ms 600ms both ease-in-out;
 
     &:nth-last-child(2) {
       animation-delay: 750ms;
@@ -71,7 +81,6 @@ h4 {
     }
     &:hover > .menu__check {
       width: 80px;
-      
       transition: all 500ms linear;
     }
     &:hover > .menu__check i {
@@ -83,15 +92,34 @@ h4 {
   &__info {
     display: flex;
     justify-content: space-between;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     width: 100%;
     padding: 10px;
   }
-  
+
+  &__text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   &__subtitle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     margin-top: 5px;
   }
 
   &__price {
+    width: 20;
     align-self: flex-end;
   }
   &__check {

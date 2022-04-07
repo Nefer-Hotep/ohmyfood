@@ -1,38 +1,12 @@
 //
-// Version 1  Heart
+// Heart
 //
-@keyframes heart-switch {
-  0% {
-    transform: scale(1);
-  }
-
-  100% {
-    transform: scale(1.1);
-  }
-}
-
 .heart {
-  cursor: pointer;
-  align-self: center;
-  background: $gradient-bottom;
-  -webkit-background-clip: text;
-}
-
-.checked:hover {
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
-  animation: heart-switch 300ms;
-}
-
-//
-// Version 2 Heart
-//
-.heart-2 {
   position: relative;
   align-self: center;
   cursor: pointer;
 }
-.checked-2 {
+.checked {
   position: absolute;
   right: 0;
   left: 0;
@@ -40,7 +14,7 @@
   opacity: 0;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 400ms ease-in-out;
 
   &:hover {
     background: $gradient-bottom;

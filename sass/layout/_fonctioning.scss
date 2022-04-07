@@ -3,23 +3,28 @@
 // 
 .fonctioning {
   height: auto;
-  padding: 40px 25px;
+  padding: 40px 20px;
   &__list {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    align-content: center;
     height: 300px;
+    margin-top: 20px;
+    @media (min-width: 1024px){
+      flex-direction: row;
+      height: auto;
+    }
   }
   &__btn {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    height: 70px;
+    height: 80px;
     width: 100%;
-    margin-left: 15px;
-    padding-right: 40px;
+    max-width: 365px;
+    position: relative;
+    margin-left: 10px;
     background-color: #f2f2f2;
     border-radius: 20px;
     box-shadow: 11px 9px 20px 0px rgb(213 205 205 / 62%);
@@ -32,6 +37,10 @@
     }
   }
   &__btn i {
+    position: absolute;
+    text-align: center;
+    left: 9%;
+    width: 25px;
     color: #8f8f8f;
   }
 }
@@ -39,7 +48,7 @@
 .number {
   position: absolute;
   text-align: center;
-  left: 21px;
+  left: -10px;
   width: 25px;
   height: 25px;
   background-color: $colour-primary;
